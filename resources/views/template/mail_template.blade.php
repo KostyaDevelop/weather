@@ -7,6 +7,9 @@
         </style>
     </head>
     <body>
+    <div>
+
+    </div>
         <div>
             Здраствуйте, <? echo($data['name']) ?> !<br>
             На данный момент температура в Москве <? echo($data['temperature']) ?><br>
