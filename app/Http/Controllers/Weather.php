@@ -22,7 +22,7 @@ class Weather extends Controller
         $date = date('G:i', time() + 5400 * 2);
 
         //////////////////////////////// Variables //////////////////////////////
-        ///
+
         $info = "Текущее время в Москве: " . $date . "</br>" . "На этот момент температура в  Москве: ". $temperature . " ℃ ";
         $name = $request->input('name');
         $email = $request->input('email');
